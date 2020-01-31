@@ -1,0 +1,132 @@
+.text-center{
+padding: 25px;
+}
+
+.img2 {
+    border: 20px;
+}
+
+a.idTop {
+    position: fixed; /*позиционирование кнопки фиксированное*/
+    z-index: 9999; /*отображаем поверх всех элементов*/
+    bottom: 0%; /*положение снизу*/
+    right: 0%; /*положение справа*/
+    background: #7db9e8; /*фон, можно указать любую картинку*/
+    opacity: .6; /*прозрачность*/
+    color: #fff; /*цвет текста*/
+    padding: 10px; /*внутренние отступы*/
+    margin: 5px 15px 15px 5px; /*внешние отступы*/
+   }
+   a.idTop:hover {
+    opacity: 1;
+   }
+
+p{
+    text-indent: 25px;
+}
+
+.a1 {
+border: 10px;
+border-color: darkblue;
+border-style: solid;
+ font-size: 20px;
+ color: rgb(0, 153, 255);
+}
+
+.a2 {
+    text-align: unset;
+}
+
+@font-face {
+    font-family: 'myfonts';
+    src: url('//fonts.googleapis.com/css?family=Lato:100,400,900'); 
+    font-style: normal;
+    font-weight: 400;
+}
+body{
+    font-family: 'Sigmar One', cursive;
+    background-color:   #2f3542;
+}
+
+#p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: white;
+    z-index: 30;}
+     
+    .contpre small{font-size:25px;}
+     
+    .contpre{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;top: 48%;
+    margin-left:-125px;
+    margin-top:-75px;
+    color:#fff;
+    font-size:40px;
+    letter-spacing:-2px;
+    text-align:center;
+    line-height:35px;}
+     
+    #p_prldr .svg_anm {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background: url(images/oval.svg) center center no-repeat;
+    background-size:41px;    
+    margin: -16px 0 0 -16px;} 
+
+    :root{
+        --panel-bg-color: #dfe4ea;
+        --container-bg-color: #f1f2f6;
+        --text-color: #2f3542;
+      }
+      :root[theme='dark'] {
+        --panel-bg-color: #2f3542;
+        --container-bg-color: #57606f;
+        --text-color: #ced6e0;
+      }
+      :root[seee='see'] {
+        font-size: 25px;
+      }
+     
+
+      
+      html{
+        height: 100%;
+      }
+      body{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color: var(--text-color);
+      }
+      nav{
+        padding: 1.2rem;
+        background: var(--panel-bg-color);
+      }
+      nav a{
+          padding: 1.1rem;
+          color: rgb(9, 255, 0);
+      }
+      .container{
+        flex: 1;
+        padding: 1rem;
+        background: var(--container-bg-color);
+      }
+      footer{
+        padding: 1rem;
+        background: var(--panel-bg-color);
+      }
+      input[type=button] {
+        color: var(--text-color);
+        background: var(--panel-bg-color);
+         
+        padding: 0.3rem;
+        margin: 0.2rem;
+        font-size: 1rem;
+      }
